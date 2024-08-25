@@ -4,9 +4,7 @@ import { FaDocker, FaLinux } from "react-icons/fa6";
 import {
   SiVisualstudiocode,
   SiPostman,
-  SiSlack,
   SiVercel,
-  SiMacos,
   SiPycharm,
   SiJupyter,
 } from "react-icons/si";

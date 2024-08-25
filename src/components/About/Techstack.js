@@ -10,15 +10,9 @@ import {
   DiGit,
   DiJava,
 } from "react-icons/di";
-import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
-import { FaAws, FaHtml5, FaCss3} from "react-icons/fa6";
+import { SiFirebase, SiNextdotjs } from "react-icons/si";
+// import { TbBrandGolang } from "react-icons/tb";
+import { FaAws, FaHtml5, FaCss3 } from "react-icons/fa6";
 
 function Techstack() {
   return (
