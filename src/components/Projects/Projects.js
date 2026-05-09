@@ -8,6 +8,7 @@ import qr from "../../Assets/Projects/quickread.png";
 import qc from "../../Assets/Projects/quickchat.png";
 import pc from "../../Assets/Projects/proconnect.png";
 import fb from "../../Assets/Projects/flappybird.png";
+import caviz from "../../Assets/Projects/caviz.png";
 
 function Projects() {
   return (
@@ -27,6 +28,16 @@ function Projects() {
               description="StudyNotion is a fully functional ed-tech platform that enables students to consume and rate as well as enables to teachers to create educational content. The platform is built using the MERN stack (MongoDB, Express.js, React.js, Node."
               ghLink="https://github.com/PbT2706/StudyNotion"
               // demoLink="https://chatify-49.web.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={caviz}
+              isBlog={false}
+              title="CAViz"
+              description="Built backend APIs for a CA MCQs platform with secure Google OAuth authentication, Razorpay payment integration, and interactive quiz/game modes. Designed scalable relational database schemas using Prisma ORM and PostgreSQL."
+              ghLink="https://github.com/PbT2706/CAViz_Backend"
             />
           </Col>
 

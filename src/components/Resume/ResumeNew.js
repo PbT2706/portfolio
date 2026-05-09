@@ -19,17 +19,6 @@ function ResumeNew() {
     <div>
       <Container fluid className="resume-section">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href="https://docs.google.com/document/d/1Q-LsZrd1QzPupoQaIaw6l3vuROj0l7_M/edit?usp=sharing&ouid=104968015408827978854&rtpof=true&sd=true"
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download it!
-          </Button>
-        </Row>
 
         <Row className="resume">
           <Document file={pdf} className="d-flex justify-content-center">

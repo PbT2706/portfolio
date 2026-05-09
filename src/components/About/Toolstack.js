@@ -7,14 +7,13 @@ import {
   SiVercel,
   SiPycharm,
   SiJupyter,
+  SiGithubactions,
 } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaLinux />
-      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
@@ -24,15 +23,11 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <FaDocker />
       </Col>
-
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiGithubactions />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPycharm />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJupyter />
+        <FaGithub />
       </Col>
     </Row>
   );

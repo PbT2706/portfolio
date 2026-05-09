@@ -17,7 +17,7 @@ function AboutCard() {
             <span className="purple">
               B.Tech in Information Technology (IT)
             </span>{" "}
-            in <span className="purple">Charusat University.</span>
+            in <span className="purple">Charotar University of Science & Technology.</span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
