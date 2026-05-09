@@ -1,12 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { FaDocker, FaLinux } from "react-icons/fa6";
+import { FaDocker } from "react-icons/fa6";
 import {
   SiVisualstudiocode,
   SiPostman,
-  SiVercel,
-  SiPycharm,
-  SiJupyter,
   SiGithubactions,
 } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";

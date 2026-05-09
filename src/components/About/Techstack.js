@@ -3,15 +3,11 @@ import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
-  DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiNextdotjs,
   SiFirebase,
   SiTypescript,
   SiPostgresql,
@@ -20,7 +16,6 @@ import {
   SiExpress,
 } from "react-icons/si";
 import { TbSql } from "react-icons/tb";
-import { FaAws, FaHtml5, FaCss3 } from "react-icons/fa6";
 
 function Techstack() {
   return (
